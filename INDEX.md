@@ -5,6 +5,7 @@
 
 * [Python](PYTHON.md)  
 * [Linux](LINUX.md)  
+* [Openbsd](OPENBSD.md)  
 * [Garten](GARTEN.md)
 * [Werkzeug](WERKZEUG.md)
 * [Rezepte](REZEPTE.md)

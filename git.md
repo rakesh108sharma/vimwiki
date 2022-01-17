@@ -8,6 +8,11 @@ git add .
 git commit -m "MESSAGE"
 git push
 ```
+### local repo -> remote repo
+- create empty repo on gitlab
+- create new token
+- `git push --set-upstream https://github.com/USERNAME/REPONAME.git master`
+
 
 ### manage dotfiles with a bare git repository
 
