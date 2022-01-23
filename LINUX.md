@@ -12,6 +12,7 @@
 * [mininet](mininet.md)
 * [tor](tor.md)
 * [virtualbox](virtualbox.md)
+* [lxc/lxd](lxc.md)
 * [proxmox](proxmox.md)
 * [docker](docker.md)
 * [openwrt](openwrt.md)
@@ -34,6 +35,7 @@
 * [Tastatur](Tastatur.md)
 * [server](server-void.md)
 * [backups](backups.md)
+* [ssh](ssh.md)
 
 ## commands
 * [dd](dd.md)
