@@ -10,3 +10,4 @@
 [Alkohohl](ALKOHOL.md)
 [Hackfleisch](HACKFLEISCH.md)
 [Fisch](FISCH.md)
+[Teig](TEIG.md)
