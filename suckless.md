@@ -6,16 +6,16 @@
 Liste nützlicher *suckless* Programme
 
 ### suckless
-| X | dwm      | window manager               |
-| X | slstatus | Statusbar                    |
-| X | dmenu    | menu prg                     |
-| X | st       | terminal (+alphafocus patch) |
-| x | scroll   | scroll prg for st            |
-|   | smu      | simple markup                |
-|   | dzen     | notification                 |
-|   | xkev     | keypress                     |
-|   | sent     | presentation tool            |
-|   | sxiv     | image viewer                 |
+| X | dwm      | window manager                | [config](vfile:~/vimwiki/dwm_config.h)
+| X | slstatus | Statusbar                     | [config](vfile:~/vimwiki/slstatus_config.h)
+| X | dmenu    | menu prg                      | [config](vfile:~/vimwiki/dmenu_config.h)
+| X | st       | terminal (+alphafocus patch)  | [config](vfile:~/vimwiki/st_config.h)
+| x | scroll   | scroll prg for st             |
+|   | smu      | simple markup                 |
+|   | dzen     | notification                  |
+|   | xkev     | keypress                      |
+|   | sent     | presentation tool             |
+|   | sxiv     | image viewer                  |
 
 ### rocks
 | X | scron     | simple crontab                        |
