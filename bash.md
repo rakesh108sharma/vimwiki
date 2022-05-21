@@ -13,11 +13,15 @@
 
 ## links
 [cheatsheet](https://devhints.io/bash)  
+[The art of command line](https://github.com/jlevy/the-art-of-command-line#everyday-use)
 [40 Simple Yet Effective Linux Shell Script Examples](https://www.ubuntupit.com/simple-yet-effective-linux-shell-script-examples/)  
 [bash hackers wiki](https://wiki.bash-hackers.org/)  
 [bash guide](https://guide.bash.academy/)  
 [pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
 [bash shell-scripting libraries](https://dberkholz.com/2011/04/07/bash-shell-scripting-libraries/)
+[bash-onliner](https://github.com/onceupon/Bash-Oneliner)
+
+[Data Science at the Command Line](https://datascienceatthecommandline.com/2e/index.html)
 
 ## color/escape codes
 

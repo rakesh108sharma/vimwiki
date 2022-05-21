@@ -1,5 +1,11 @@
 [[LINUX]]
-# voidlinux
+# voidlinux  
+
+## install void linux  
+this is an exercise in trying to put together a systematic procedure to install 
+void linux (semi automatic)  
+[install Void Linux](installVoidLinux.md)  
+
 ## grub
 Folgende Schritte werden bei der *Erstinstallation* oder beim *repair*
 durchgeführt.

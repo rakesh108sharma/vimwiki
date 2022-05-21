@@ -9,6 +9,7 @@ torrent download with transmission using web browser. no gui nor cli needed
     * `export TRANSMISSION_HOME=~/.config/transmission-daemon`
 * /etc/sv/transmission-daemon/run:
     * change *transmission:transmission* to your own *USER:GROUP*
+        `exec chpst -u maya:maya transmission-daemon -f --log-error`
 * `ln -s /etc/sv/transmission-daemon /var/service/`
 * browser:
     * localhost:9091

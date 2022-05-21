@@ -1,6 +1,7 @@
 [[INDEX]]
 # Linux
 [alpine](alpine.md)
+[void linux](void.md)
 
 ## Topics
 * [suckless](suckless.md)
@@ -12,6 +13,7 @@
 * [mininet](mininet.md)
 * [tor](tor.md)
 * [virtualbox](virtualbox.md)
+* [kvm/qemu](kvm.md)
 * [lxc/lxd](lxc.md)
 * [proxmox](proxmox.md)
 * [docker](docker.md)

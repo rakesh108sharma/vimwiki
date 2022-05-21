@@ -16,6 +16,7 @@ Liste nützlicher *suckless* Programme
 |   | xkev     | keypress                      |
 |   | sent     | presentation tool             |
 |   | sxiv     | image viewer                  |
+|   | surf     | web browser                   |
 
 ### rocks
 | X | scron     | simple crontab                        |
@@ -35,6 +36,7 @@ Liste nützlicher *suckless* Programme
 |   | btpd      | bittorrent                            |
 | X | lf        | file manager                          |
 |   | nnn       | file manager                          |
+|   | sfm       | file manager                          |
 | x | fff       | file manager (bash)                   |
 | X | herbe     | notification                          |
 |   | pass      | password manager                      |
