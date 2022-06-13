@@ -11,20 +11,25 @@
 
 ## user  
 * vim
+* neovim
 * micro
 * lf
 * lynx
 
 * bash-completion
 * checkbashisms
+* shellcheck
 * highlight
 * bat
 * mdcat
 * mediainfo
 * hstr
+* fish-shell
 
 * mimic
 * clipit
+
+* tig
 
 * alsa-utils
 * mpv

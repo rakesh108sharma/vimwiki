@@ -29,6 +29,7 @@
 * [bash](bash.md)
 * [wlan](wlan.md)
 * [xinitrc](xinitrc.md)
+* [xrandr](xrandr.md)
 * [audio](audio.md)
 * [video](video.md)
 * [daemon](daemon.md)
