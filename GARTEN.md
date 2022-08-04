@@ -9,3 +9,5 @@
 [Nistkästen](Nistkästen)
 
 ## Insekten
+- Insekten-Tränke
+- Insekten-Haus

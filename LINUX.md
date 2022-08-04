@@ -2,6 +2,8 @@
 # Linux
 [alpine](alpine.md)
 [void linux](void.md)
+[debian](debian.md)
+[fedora](fedora.md)
 
 ## Topics
 * [suckless](suckless.md)
@@ -19,6 +21,7 @@
 * [docker](docker.md)
 * [openwrt](openwrt.md)
 * [markdown](markdown.md)
+* [postgresql](postgresql.md)
 * [groff](groff.md)
 * Firewall:
     * [ufw](ufw.md)

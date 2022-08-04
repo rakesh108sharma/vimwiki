@@ -1,5 +1,11 @@
 [[PYTHON]]
 # spyder
+> ------------------------  
+> **important note:**  
+> use *pipx*!!  
+> pipx solves all problems  
+> ------------------------  
+
 if there are problems with installing *spyder* with *conda*,
 then it can be installed with *pip*
 **BUT**  
@@ -20,4 +26,20 @@ then it can be installed with *pip*
     - `python interpreter->use new python interpreter`
     - enter the new path and add */bin/python* to it
 - from now on use ONLY *pip*
+
+## pipenv  
+- create a virtual environment (see pipenv)
+- install spyder (that easy):
+    - `pipenv install spyder`
+
+**BUT**
+it's a bit messy to start spyder from *one* virtual environment
+in order to program in *another* virtual environment.  
+
+## pipx  
+pipx solves all problems!  
+- install pipx
+- install spyder globally but contained at the same time:
+    - `pipx install spyder`
+
 

@@ -26,7 +26,26 @@ A wiki for my python _studies_
 - make an env from requirements.txt:
     - `pip install -r requirements.txt`
 
-### pipenv
+### pipenv  
+pipenv is now the preferred method.  
+ 
+- create a new project:
+    - create PROJECT folder
+    - within the PROJECT folder, create a hidden **.venv** folder
+    - `pipenv`
+- installing packages:
+    - you have to be within the PROJECT folder
+    - `pipenv install PACKAGE`
+- uninstalling packages:
+    - `pipenv uninstall PACKAGE`
+- updating all packages:
+    - `pipenv update`
+- enter the virtual environment:
+    - `pipenv shell`
+- run a program out of the virtual environment without entering it:
+    - `pipenv run PROGRAM`
+
+
 ### conda (anaconda)
 
 ## Index
