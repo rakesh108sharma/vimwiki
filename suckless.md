@@ -6,8 +6,8 @@
 Liste nützlicher *suckless* Programme
 
 ### suckless
-| X | dwm      | window manager                | [config](vfile:~/vimwiki/dwm_config.h)
-| X | slstatus | Statusbar                     | [config](vfile:~/vimwiki/slstatus_config.h)
+| X | dwm      | window manager                | [config](vfile:~/vimwiki/dwm_config.h) [dwm](dwm.md)
+| X | slstatus | Statusbar                     | [config](vfile:~/vimwiki/slstatus_config.h) [slstatus](slstatus.md)
 | X | dmenu    | menu prg                      | [config](vfile:~/vimwiki/dmenu_config.h)
 | X | st       | terminal (+alphafocus patch)  | [config](vfile:~/vimwiki/st_config.h)
 | x | scroll   | scroll prg for st             |
