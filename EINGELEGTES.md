@@ -6,6 +6,7 @@
 
 ## Pickles
 [Chillis](Thai.md)
+[red_onions](red_onions.md)
 
 ## Fleisch
 [Rinder Basturma](Basturma.md)

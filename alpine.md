@@ -7,7 +7,9 @@ add a package from testing: `apk add package-name@testing`
 
 ## install
 
-## post-install
+## post-install  
+activate **community** (and **testing**) in `/etc/apk/repositories` 
+
 `adduser -h /home/USERNAME -s /bin/ash USERNAME`
 `passwd USERNAME`
 `adduser USERNAME wheel`
@@ -21,6 +23,12 @@ doas
     `apk add doas`
     `nano /etc/doas.conf`
         `permit persist :wheel`
+
+fonts:
+choose a font in `/usr/share/consolefonts/`  
+set the font in `/etc/conf.d/consolefont`  
+    `consolefont=YourFontFile.psf.gz`  
+`rc-update add consolefont boot`  
 
 utilities:
 `apk add util-linux pciutils usbutils coreutils binutils findutils grep iproute2`

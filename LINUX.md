@@ -25,6 +25,8 @@
 * [groff](groff.md)
 * Firewall:
     * [ufw](ufw.md)
+* WMs:
+    * [bspwm](bspwm.md)
 
 
 ## system maintenance
