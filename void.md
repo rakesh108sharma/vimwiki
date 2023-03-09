@@ -9,6 +9,7 @@ void linux (semi automatic)
 ## grub
 Folgende Schritte werden bei der *Erstinstallation* oder beim *repair*
 durchgeführt.
+
 ### chroot
 ```
 mount --rbind /sys /mnt/sys && mount --make-rslave /mnt/sys
@@ -20,6 +21,7 @@ cp /etc/resolv.conf /mnt/etc/
 PS1='(chroot) # ' chroot /mnt/ /bin/bash
 
 ```
+
 ### bios grub
 ```
 xbps-install grub
@@ -77,3 +79,41 @@ To remove it, you will need to ignore the sudo package.
 To ignore a package, add an appropriate ignorepkg entry in an xbps.d(5)
 configuration file. For example in /etc/xbps.d/sudo.conf:    
 `ignorepkg=sudo`  
+
+## sysctl
+edit /etc/sysctl.conf
+```
+# protect against SYN flood attack
+#sudo sysctl net.ipv4.tcp_syncookies=1
+#sudo sysctl net.ipv4.tcp_syn_retries=2
+#sudo sysctl net.ipv4.tcp_synack_retries=2
+#sudo sysctl net.ipv4.tcp_max_syn_backlog=4096
+
+# Protect against IP spoofing
+net.ipv4.conf.all.rp_filter=1
+net.ipv4.conf.default.rp_filter=1
+
+# Disable packet forwarding
+net.ipv4.ip_forward=0
+net.ipv4.conf.all.forwarding=0
+net.ipv4.conf.default.forwarding=0
+net.ipv6.conf.all.forwarding=0
+net.ipv6.conf.default.forwarding=0
+
+# Disable logging martian packages
+# Otherwise it might cause DOS
+net.ipv4.conf.default.log_martians = 0
+net.ipv4.conf.all.log_martians = 0
+
+# Disable Redirect Acceptance
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv4.conf.default.accept_redirects = 0
+net.ipv4.conf.all.secure_redirects = 0
+net.ipv4.conf.default.secure_redirects = 0
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv6.conf.default.accept_redirects = 0
+
+# reduce swappiness
+vm.swappiness=10
+```
+

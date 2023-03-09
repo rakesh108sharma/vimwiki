@@ -18,7 +18,7 @@
 
 - Erbsen über Nacht einweichen
 - Zwiebeln, Speck und Gemüse anschmoren
-- Hälfte der Ersen dazugeben:
+- Hälfte der Erbsen dazugeben:
   - 30 Minuten kochen
 - Rest der Erbsen und Kartoffeln dazugeben:
   - würzen
