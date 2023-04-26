@@ -34,6 +34,11 @@ utilities:
 `apk add util-linux pciutils usbutils coreutils binutils findutils grep iproute2`
 `apk add udisks2 udisks2-doc`
 
+manpages:
+`apk add mandoc man-pages mandoc-apropos docs`  
+- man-pages are just manpages of the core system
+- docs is a meta-package and will automatically download the "doc-package" as well  
+  
 ## window manager
 [dwm](https://wiki.alpinelinux.org/wiki/Dwm)
     `apk add git make gcc g++ libx11-dev libxft-dev libxinerama-dev ncurses`

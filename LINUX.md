@@ -13,12 +13,6 @@
 * [anaconda](anaconda.md)
 * [git](git.md)
 * [mininet](mininet.md)
-* [tor](tor.md)
-* [virtualbox](virtualbox.md)
-* [kvm/qemu](kvm.md)
-* [lxc/lxd](lxc.md)
-* [proxmox](proxmox.md)
-* [docker](docker.md)
 * [openwrt](openwrt.md)
 * [markdown](markdown.md)
 * [postgresql](postgresql.md)
@@ -27,6 +21,15 @@
     * [ufw](ufw.md)
 * WMs:
     * [bspwm](bspwm.md)
+* [tor](tor.md)
+
+### Virtualization  
+* [virtualbox](virtualbox.md)
+* [kvm/qemu](kvm.md)
+* [lxc/lxd](lxc.md)
+* [proxmox](proxmox.md)
+* [docker](docker.md)
+
 
 
 ## system maintenance
@@ -48,6 +51,7 @@
 ## commands
 * [dd](dd.md)
 * [tune2fs](tune2fs.md)
+* [fc-cache](fccache.md)     rebuild font cache
 
 ## programs
 * [youtube dl](youtube-dl.md)

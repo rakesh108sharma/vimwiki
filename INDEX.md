@@ -6,6 +6,7 @@
 * [Python](PYTHON.md)  
 * [Linux](LINUX.md)  
 * [Openbsd](OPENBSD.md)  
+* [ChatGPT](CHATGPT.md)  
 * [Garten](GARTEN.md)
 * [Werkzeug](WERKZEUG.md)
 * [Rezepte](REZEPTE.md)
