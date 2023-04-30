@@ -18,11 +18,3 @@ Die wichtigsten Stoffe, die man so zuführen sollte.
     - D 10000-20000/daily
     - Querecetin 2x 500mg/daily
 
-# test
-
-## test
-
-*test*  
-**test**  
-
-

@@ -1,9 +1,11 @@
 [[GESUNDHEIT]]
-# The Shift RX challenge
+
+# The Shift RX challenge  
+staying in/with nature regularly for health improvement.
 
 ## daily
 - 30 min (5 times/week)
-- nearby nature
+- nearby nature (garden)
 
 ## weekly
 - 2 hours
