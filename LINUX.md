@@ -4,6 +4,7 @@
 [void linux](void.md)
 [debian](debian.md)
 [fedora](fedora.md)
+[nixos](nixos.md)
 
 ## Topics
 * [suckless](suckless.md)
@@ -22,6 +23,8 @@
 * WMs:
     * [bspwm](bspwm.md)
 * [tor](tor.md)
+* [program-list](program_list.md)
+* [resizing partition](resizing_partition.md)
 
 ### Virtualization  
 * [virtualbox](virtualbox.md)

@@ -20,7 +20,7 @@ sudo
     `adduser USERNAME wheel`
 **OR**
 doas
-    `apk add doas`
+    apk add doas`
     `nano /etc/doas.conf`
         `permit persist :wheel`
 
@@ -30,14 +30,15 @@ set the font in `/etc/conf.d/consolefont`
     `consolefont=YourFontFile.psf.gz`  
 `rc-update add consolefont boot`  
 
-utilities:
-`apk add util-linux pciutils usbutils coreutils binutils findutils grep iproute2`
-`apk add udisks2 udisks2-doc`
-
 manpages:
 `apk add mandoc man-pages mandoc-apropos docs`  
 - man-pages are just manpages of the core system
 - docs is a meta-package and will automatically download the "doc-package" as well  
+
+utilities:
+`apk add util-linux pciutils usbutils coreutils binutils findutils grep iproute2`
+`apk add udisks2 udisks2-doc`
+
   
 ## window manager
 [dwm](https://wiki.alpinelinux.org/wiki/Dwm)
