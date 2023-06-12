@@ -40,4 +40,6 @@ example configuration of:
 - [nixos](configuration-nix.md)
 - [home-manager](home-nix.md)
 
-
+## divers  
+install NIXOS from [scratch](nixos_from_scratch.md)  
+study [plan](study_nixos.md)

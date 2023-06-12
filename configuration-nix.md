@@ -84,6 +84,7 @@
 
   	# Enable the OpenSSH daemon.
   	openssh.enable = true;
+        fstrim.enable = true;
   };
 
 
@@ -136,7 +137,18 @@
   #xfce.thunar-volman
   #volumeicon
   micro
-  ];
+  ];          # END system packages
+
+  programs = {
+    bash.enableCompletion = true;
+    nano.nanorc = {
+      set autoindent
+      set tabsize 2
+
+      bind ^S savefile main
+      bind ^Q exit main
+    };
+  };          # END programs
 
   environment.localBinInPath = true;
 
@@ -144,7 +156,7 @@
   	EDITOR = "micro";
   	PAGER = "most";
   	MANPAGER = "most";
-  };
+  };          # END variables
 
   environment.shellAliases = {
     ls = "exa -s type";
@@ -165,7 +177,7 @@
     yynn = "sudo nixos-rebuild switch";
     yyu = "apply-update.sh";
     yyc = "apply-optimize.sh";
-  };
+  };          # END aliases
 
 
   
