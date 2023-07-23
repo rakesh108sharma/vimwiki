@@ -1,15 +1,18 @@
 [proxmox](proxmox.md)    -    [[LINUX]]
 
-# installing proxmox
+# installing proxmox  
 
-## /etc/apt/sources.list
-add:
-```shell
-deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
-```  
+## SDN - software defined interfaces  
+in order to activate this:
+- edit: "/etc/apt/sources.list":
+    - `deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription`
+- `apt update`
+- `apt install libpve-network-perl`
+- edit "/etc/network/interfaces":
+    - `source /etc/network/interfaces.d/*`
+- `reboot`
 
-## /etc/apt/sources.d/....
-comment out all other repositories!
+SDN is now activated on the webgui at the datacenter-level.
 
 ## update
 `apt-get update && apt-get upgrade`  

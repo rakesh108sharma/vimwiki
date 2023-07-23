@@ -17,4 +17,4 @@
         - https://www.whois.com/whois/
         - https://godaddy.com/whois
         - https://whois.domaintools.com/
-    - 
+- networking [models](networkingModels.md)

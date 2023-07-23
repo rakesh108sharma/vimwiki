@@ -25,6 +25,7 @@
 * [tor](tor.md)
 * [program-list](program_list.md)
 * [resizing partition](resizing_partition.md)
+* [cloning disks](cloning_disks.md)
 
 ### Virtualization  
 * [virtualbox](virtualbox.md)
