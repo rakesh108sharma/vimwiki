@@ -11,3 +11,4 @@ Inhaltverzeichnis aller Bücher, die ich gelesen habe, lese oder lesen möchte.
 [gelesen](gelesen.md)
 gelesen_Spanisch
 Wunschliste
+[Anne Rice](anneRice.md)
