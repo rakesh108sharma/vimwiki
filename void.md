@@ -1,6 +1,76 @@
 [[LINUX]]
 # voidlinux  
 
+## install  
+### use wlan for install  
+Der Installer kann direkt benutzt werden AUßER man benötigt Wlan.  
+Dann sind folgende Schritte notwendig:  
+```
+bash                      # besser als dash
+setfont -d                # verdoppelt die Schrift
+loadkeys de-latin1        # Deutsch + Umlaute
+ip link                   # um den Namen des Wlan-Adapters zu erfahren
+
+wpa_cli -i WLAN-ADAPTER-NAME  
+scan  
+add_network 
+set_network NETWORK-NUMMER ssid "SSID-NAME" 
+set_network NETWORK-NUMMER psk"PASSWORD"  
+enable_network NETWORK-NUMMER  
+quit  
+ping voidlinux.org        # teste Verbindung  
+
+void-installer  
+```  
+
+### add user  
+```
+useradd -m -g users -G wheel,video,audio,kvm -s /bin/bash USERNAME  
+passwd USERNAME  
+visudo 
+(das Gewünschte auskommentieren)  
+```
+
+### base install continue  
+```
+xbps-install -S void-repo-nonfree  
+xbps-install -S  
+xbps-install linux-firmware-amd        # microcode for amd   
+(xbps-install intel-ucode)             # microcode for intel  
+uname -r  
+xbps-reconfigure -f linuxNUMMER        # NUMMER sind die ersten 2 Ziffern von uname -r  
+
+xbps-install xtools                    # nützlich  
+```  
+
+### Desktop-Umgebung  
+#### KDE plasma  
+```
+xbps-install -S xorg kde5 kde5-baseapps xdg-utils xdg-user-dirs  
+sudo ln -s /etc/sv/NetworkManager/ /var/service
+sudo ln -s /etc/sv/dbus/ /var/service  
+sudo ln -s /etc/sv/sddm/ /var/service  
+```  
+
+in Systemeinstellungen:
+- Bildschirmauflösung wählen
+- Skalierungsfaktor 125% bei Laptops ist hilfreich
+- Tastatur Deutsch wählen
+- Startbildschirm ändern bei Bedarf
+- edit /usr/share/sddm/scripts/Xsetup:
+    - setxkbmap de
+    - xrandr -s 1024x768
+
+#### XFCE4  
+```
+xbps-install xorg xfce4
+```
+
+- create .themes and .icons folder
+- search for themes and icons:
+    - google search example: xfce look
+
+
 ## install void linux  
 this is an exercise in trying to put together a systematic procedure to install 
 void linux (semi automatic)  

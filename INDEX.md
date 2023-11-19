@@ -18,6 +18,7 @@
   - [Eingelegtes](EINGELEGTES.md)
   - [Alkohohl](ALKOHOL.md)
   - [Hackfleisch](HACKFLEISCH.md)
+  - [Fleisch](FLEISCH.md)
   - [Fisch](FISCH.md)
 * [Gesundheit](GESUNDHEIT.md)
 * [Chess](CHESS.md)

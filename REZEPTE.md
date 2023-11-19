@@ -9,5 +9,6 @@
 [Eingelegtes](EINGELEGTES.md)
 [Alkohohl](ALKOHOL.md)
 [Hackfleisch](HACKFLEISCH.md)
+[Fleisch](FLEISCH.md)
 [Fisch](FISCH.md)
 [Teig](TEIG.md)
