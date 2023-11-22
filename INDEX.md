@@ -20,6 +20,7 @@
   - [Hackfleisch](HACKFLEISCH.md)
   - [Fleisch](FLEISCH.md)
   - [Fisch](FISCH.md)
+  - [Daal](DAAL.md)
 * [Gesundheit](GESUNDHEIT.md)
 * [Chess](CHESS.md)
 * [Photography](PHOTOGRAPHY.md)

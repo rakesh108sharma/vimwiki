@@ -11,4 +11,6 @@
 [Hackfleisch](HACKFLEISCH.md)
 [Fleisch](FLEISCH.md)
 [Fisch](FISCH.md)
-[Teig](TEIG.md)
+[Teig](TEIG.md)  
+[Daal](DAAL.md) Linsen, Bohnen  
+

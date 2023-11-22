@@ -11,9 +11,9 @@
 
 ## user  
 * vim
-* neovim
+* neovim | helix
 * micro
-* lf
+* lf | fff | nnn
 * lynx
 
 * bash-completion
