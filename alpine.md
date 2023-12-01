@@ -41,6 +41,8 @@ utilities:
 
   
 ## window manager
+### DWM  
+
 [dwm](https://wiki.alpinelinux.org/wiki/Dwm)
     `apk add git make gcc g++ libx11-dev libxft-dev libxinerama-dev ncurses`
     `apk add dbus-x11 adwaita-gtk2-theme adwaita-icon-theme ttf-dejavu`
@@ -64,3 +66,18 @@ utilities:
 `rc-update add lxdm`
 `rc-service lxdm start`
 
+### XFCE4  
+- xorg:
+    - `setup-xorg-base`
+- video drivers:
+    - search for `xf86-video`
+    - optional: `pciutils`
+- input devices:
+    - search for `xf86-input`
+    - touchpad: `xf86-input-synaptics`
+    - optional: `kbd`
+- keyboard: `setxkbmap`
+- xfce4 desktop:
+    - `setup-desktop`
+
+      

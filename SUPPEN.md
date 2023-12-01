@@ -6,3 +6,4 @@
 [Bärlauch](Bärlauch.md)
 [Bohnen](bohnenSuppe.md)  
 [Weißkohl](weisskohlSuppe.md)  
+[Rotkohl](rotkohlSuppe.md)  

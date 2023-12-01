@@ -26,6 +26,7 @@
 * [program-list](program_list.md)
 * [resizing partition](resizing_partition.md)
 * [cloning disks](cloning_disks.md)
+* [sending files](sendingFiles.md)
 
 ### Virtualization  
 * [virtualbox](virtualbox.md)
