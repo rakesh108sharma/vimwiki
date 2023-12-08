@@ -5,21 +5,24 @@
 | TYPE           | MAIN | NAME    |
 | shell          | X    | dash    |
 |                | X    | bash    |
+|                | X    | fish    |
 | file manager   | X    | lf      |
+|                | X    | mc      |
 |                |      | fff     |
 |                |      | nnn     |
 |                |      | rover   |
 |                |      | noice   |
 | editor         | X    | micro   |
-|                | X    | helix   |
+|                |      | helix   |
 |                | X    | vim     |
 |                |      | neovim  |
 | find alt.      | X    | fd      |
 | grep alt.      | X    | ripgrep |
 | cat alt.       | X    | bat     |
-|                | X    | Amdcat  |
+|                | X    | mdcat   |
 | curl/wget alt. |      | httpie  |
 | du alt.        | X    | ncdu    |
+|                |      | gdu     |
 | ls alt.        | X    | exa     |
 | df alt.        | X    | duf     |
 |                |      |         |

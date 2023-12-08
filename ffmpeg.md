@@ -124,9 +124,20 @@ OUTPUTFILE
 transpose=1     positive number rotates clockwise
 
 
-## SCREENRECORDER
+## SCREENRECORDER  
 
-### only screen
+### only microphone  
+`ffmpeg -f alsa -i default out.mkv`  
+
+with noise reduction:
+`ffmpeg -f alsa -i default -af "afftdn=nr=10:nf=-30:tn=1" out.mkv`  
+- af          audio filter
+- afftdn      audio filter for denoising
+- nr=10       reduce noise by 10dB
+- nf=30       use noise floor -30dB
+- tn=1        track noise level and gradually change during processing
+
+### only screen  
 `ffmpeg -f x11grab -s 1280x720 -i :0.0 out.mkv`  
 -f x11grab         module for video  
 -i :0.0            if there is only one screen
@@ -134,6 +145,14 @@ transpose=1     positive number rotates clockwise
                    can be found out with *xrandr*  
 **OR**
 `ffmpeg -f x11grab -video_size cif -framerate 25 -i :0.0 OUT.mpg`
+
+
+find out the screen name with `xdpyinfo` (-> :0.0)  
+if you want to grab only one window on your screen, you can find out 
+the geometry with `xwininfo`  
+(remember WIDTH, HEIGHT and CORNERS)  
+`ffmpeg -f x11grab -video_size WIDTHxHEIGHT -framerate 25 -i :0.0+CORNERS OUT.mkv`  
+`ffmpeg -video_size 772x464 -framerate 60 -f x11grab -i :0.0+288,145 out.mkv`  
 
 ### screen with audio
 - first find out yout input alsa device with `arecord -l`  
