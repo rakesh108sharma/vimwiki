@@ -77,7 +77,5 @@ utilities:
     - touchpad: `xf86-input-synaptics`
     - optional: `kbd`
 - keyboard: `setxkbmap`
-- xfce4 desktop:
-    - `setup-desktop`
-
+- 
       

@@ -1,5 +1,6 @@
 [[REZEPTE]] [[TEIG]]
-# Wunderbrot
+# Wunderbrot  
+**sehr gut**  
 
 | 100 gr | Haferflocken kernig  |
 | 50 gr  | Haferflocken zart    |
