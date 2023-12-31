@@ -1,6 +1,16 @@
 [[LINUX]]
 # wlan
 
+## adding wlan with wpa_cli  
+- find out device with `ip link`
+- start prg with `wpa_cli -i INTERFACE`
+- `scan`
+- `add_network` (output will be network nr)
+- `set_network NR ssid "SSID"`
+- `set_network NR psk "PASSWORD"`
+- `enable_network NR`
+
+
 ## adding wlan interface and configuring
 ```
 cp /etc/wpa_supplicant/wpa_supplicamt.conf /etc/wpa_supplicant/wpa_supplicant-<DEVICE>.conf
