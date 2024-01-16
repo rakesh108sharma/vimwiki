@@ -12,6 +12,8 @@ git init
 ```
 
 ## Dockerfile
+
+
 create a file **Dockerfile**
 ```
 FROM ruby:2.7
