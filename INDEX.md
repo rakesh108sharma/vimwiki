@@ -25,6 +25,7 @@
 * [Chess](CHESS.md)
 * [Photography](PHOTOGRAPHY.md)
 * [Books](BOOKS.md)
+* [podcasts](PODCASTS.md)
 * [Motors](MOTORS.md)
 * [Macrame](MACRAME.md)
 * [Survival](SURVIVAL.md)
