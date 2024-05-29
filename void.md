@@ -40,7 +40,7 @@ xbps-install linux-firmware-amd        # microcode for amd
 uname -r  
 xbps-reconfigure -f linuxNUMMER        # NUMMER sind die ersten 2 Ziffern von uname -r  
 
-xbps-install xtools                    # nützlich  
+xbps-install xtools xmirror            # nützlich  
 ```  
 
 ### Desktop-Umgebung  
