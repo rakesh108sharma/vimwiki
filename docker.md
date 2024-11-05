@@ -23,10 +23,12 @@ the raspbery is an **arm** computer
 ### Templates
 [original App](https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json)
 [SelfhostedPro](https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json)
+
+
 ## interesting containers
-- transmission                 - torrent
+- [transmission](transmission.md)                 - torrent
 - droppy                       - drop box for files
-- filebrowser                  - drop box (wie droppy)
+- [filebrowser](filebrowser.md)                  - drop box (wie droppy)
 - pihole                       - ad blocker
 - whoogle                      - search engine
 - freshrss                     - rss reader
@@ -35,3 +37,15 @@ the raspbery is an **arm** computer
 - homer                        - dashboard for browser
 - [heimdall](heimdall.md)                     - dashboard for browser
 - [gollum](gollum.md)                       - personal wiki
+- [jellyfin](jellyfin.md)                     - movie streamer 
+- flatnotes                    - note taking 
+
+
+## short commands  
+### ctop  
+ctop checks all container for health etc.  
+create this alias to start **ctop** as a container which will be destroyes on exit. 
+`alias dockercheck='docker run --rm -ti \
+--name=ctop \
+--volume /var/run/docker.sock:/var/run/docker.sock:ro quay.io/vektorlab/ctop:latest'`
+

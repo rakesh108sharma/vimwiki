@@ -3,6 +3,9 @@
 
 ## convert files
 
+### convert container type  
+`ffmpeg -i inputfile.avi -c:v copy -c:a copy outputfile.mkv`
+
 ### convert video format
 `ffmpeg inputfile.mp4 outputfile.mkv`  
 just mention the outputfile with the wanted filetype; e.g mp3, mp4, mkv, ogg

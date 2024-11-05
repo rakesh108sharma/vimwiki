@@ -27,6 +27,7 @@
 * [resizing partition](resizing_partition.md)
 * [cloning disks](cloning_disks.md)
 * [sending files](sendingFiles.md)
+* [note taking](note_taking.md)
 
 ### Virtualization  
 * [virtualbox](virtualbox.md)

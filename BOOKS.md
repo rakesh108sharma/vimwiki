@@ -12,3 +12,7 @@ Inhaltverzeichnis aller Bücher, die ich gelesen habe, lese oder lesen möchte.
 gelesen_Spanisch
 Wunschliste
 [Anne Rice](anneRice.md)
+
+
+## book list  
+[Free inquiry and the modern world](free_inquiry_booklist.md)  

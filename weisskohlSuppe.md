@@ -1,6 +1,9 @@
 [[REZEPTE]]  [[SUPPEN]]  
 
 # Weißkohlsuppe  
+
+## 1. Variation  
+
 | 100 gr     | geräucherter Speck          |
 | 1-2        | Zwiebel                     |
 | 2          | Knoblauch                   |
@@ -24,7 +27,41 @@
 - Kohl + Kartoffeln dazu
 - 15-20 Minuten köcheln
 
-## optional  
+### optional  
 | 1 Stück         | kleingeschnitteke Wurst |
 | 1 kl            | Fenchel                 |
 | etwas geriebene | Petersilienwurzel       |
+
+## 2. Variation  
+
+| 500 gr     | Weißkraut                                              |
+| 1 große    | Zwiebel                                                |
+| 1 l        | Gemüsebrühe                                            |
+| 3          | Knoblauchzehen                                         |
+|            | 2 mittlere, geschälte Tomaten                          |
+|            | ODER kl Dose Tomatenmark                               |
+|            | ODER 1 Dose geschälte Tomaten                          |
+| 1,5 Tl     | Salz                                                   |
+| 1/2 TL     | Pfeffer                                                |
+| 1/2 TL     | Kümmel                                                 |
+| 1 TL       | Majoran                                                |
+| 3 EL       | Paprika edelsüß                                        |
+| 3 mittlere | kleingewürfelte Kartoffeln                             |
+| 1 mittlere | Kartoffel                                              |
+| 3 EL       | Sauerahm                                               |
+
+(4 mittelgroße Kartoffeln = +- 400 gr)
+
+- Zwiebel anschwitzen
+- Kohl + Salz dünsten
+- Knoblauch + Gewürze dazu
+- Tomaten dazu
+- Gemüsebrühe + gewürfelte Kartoffeln dazu
+- 30 Minuten kochen
+- 1 rohe Kartoffel reinreiben
+- 30 Minuten kochen
+- Sauerahm dazugeben
+
+optional 1 EL Essig reingeben.
+
+
