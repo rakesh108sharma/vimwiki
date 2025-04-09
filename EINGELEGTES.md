@@ -17,3 +17,7 @@
 [italienische Schweinelende](italienische Schweinelende.md)
 [Pancetta](Pancetta.md)
 
+## Gewürze
+[Salz](salz.md)
+[Liebstöckel](liebstöckel.md)
+

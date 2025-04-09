@@ -1,9 +1,9 @@
 # Möhren-Orangen-Suppe  
 
 | 600 gr | Möhren                     |
-| 400 ml | Gemüsebrühe                |
-| 400 ml | Sahne                      |
-| 350 ml | Orangensaft                |
+| 500 ml | Gemüsebrühe                |
+| 250 ml | Sahne                      |
+| 400 ml | Orangensaft                |
 | 100 ml | Weißwein                   |
 | 2      | Zwiebel                    |
 | 1      | fillitiertOrange           |
