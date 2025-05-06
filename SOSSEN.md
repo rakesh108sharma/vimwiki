@@ -7,3 +7,4 @@
 [Curry Pfirsisch](Curry Pfirsisch.md)
 [Tomatenketchup](tomatenketchup.md)
 [grüne Tomaten Chutney](grüne_tomaten_chutney.md)
+[Thai rote Chillipaste](thai_rot.md)
