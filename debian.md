@@ -30,7 +30,7 @@ install without the graphic installer
 - configure swappiness (/etc/sysctl.conf):
     - `vm.swappiness=10`
 - install a firewall:
-    - `sudo apt install ufm`
+    - `sudo apt install ufw`
     - `sudo ufw enable`
 - install a backup programm:
     - timeshift
