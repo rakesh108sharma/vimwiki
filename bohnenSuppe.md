@@ -1,6 +1,8 @@
 [[REZEPTE]]  [[SUPPEN]]  
 
 # Bohnensuppe  
+|       |                                     |
+|-------|-------------------------------------|
 | 500 g | eingeweichte weiße Bohnen           |
 | 400 g | Speck                               |
 | 1     | Gemüsebund (Sellerie, Möhre, Lauch) |

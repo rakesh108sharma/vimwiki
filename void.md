@@ -1,5 +1,7 @@
 [[LINUX]]
 # voidlinux  
+## alternative installs  
+[voidlinux mit btrfs](void-btrfs.md)  
 
 ## install  
 ### use wlan for install  
