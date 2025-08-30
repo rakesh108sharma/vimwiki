@@ -60,4 +60,31 @@ adding a swap file instead of a swap partition.
     - `/swapfile swap swap defaults 0 0`
 - reboot
 
+## version upgrade
+1. update the old system
+- `apt update`
+- `apt upgrade`
+- `apt full-upgrade`
+- `apt --purge autoremove`
+- `apt autoclean`
+- delete obsolete packages:
+    - `apt list '~o'`
+    - `apt purge '~o'`
+- delete configuration files from deleted packages:
+    - `apt list '~c'`
+    - `apt purge '~c'`
+- `reboot`
+
+2. upgrade to the new system
+- `apt edit-sources`
+- ALSO change to new version name in all ".list" files in "sources.list.d" directory
+- change to new version name
+- `apt update`
+- `apt upgrade --without-new-pkgs`
+- `apt full-upgrade`
+- `reboot`
+- `apt --purge autoremove`
+- `apt autoclean`
+- `reboot`
+
 

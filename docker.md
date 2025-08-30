@@ -7,6 +7,13 @@
 - add user to **docker group**:
     - `sudo usermod -aG docker USER`
 
+## docker compose
+### update a container
+- enter the folder of the container you want to update
+- `docker compose pull`
+- `docker compose up -d`
+- `docker image prune`
+
 ## portainer
 web gui managment system for docker.  
 Another one is **yacht**.  
