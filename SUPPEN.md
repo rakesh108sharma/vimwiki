@@ -8,3 +8,4 @@
 [Weißkohl](weisskohlSuppe.md)  
 [Rotkohl](rotkohlSuppe.md)
 [MöhrenOrange](möhrenOrangeSuppe.md)
+[Ungarische Gulaschsuppe](gulaschsuppe.md)
