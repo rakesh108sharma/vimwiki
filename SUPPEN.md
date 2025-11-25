@@ -3,6 +3,7 @@
 
 [Tomaten](Tomaten.md)
 [Erbsen](Erbsen.md)
+[Linsen](LinsenSuppe.md)
 [Bärlauch](Bärlauch.md)
 [Bohnen](bohnenSuppe.md)  
 [Weißkohl](weisskohlSuppe.md)  
