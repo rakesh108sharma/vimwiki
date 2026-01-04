@@ -152,6 +152,43 @@ To ignore a package, add an appropriate ignorepkg entry in an xbps.d(5)
 configuration file. For example in /etc/xbps.d/sudo.conf:    
 `ignorepkg=sudo`  
 
+### some important xbps commands
+`xbps-install -f PKG`   force reinstall a (maybe corrupted) package  
+`xbps-remove -Oo`   clean the system of ununsed packages  
+`xbps-pkgdb -a`   verify the consistency of installed packages  
+`xbps-pkgdb -m repare PKG`   reinstall damaged package  
+`xbps-query -o /path/to/file`   info about which package a particular file belongs to  
+`xbps-reconfigure -fa`   forces checks and reconfiguring on all packages  
+
+### usefull packages  
+- void-repo-nonfree
+- curl, wget, git
+- nano, vim, micro, htop
+- xz, unzip, zip
+- gparted, gptfdisk, efibootmgr,
+- xtools, mtools, mlocate,
+- bash-completion, fish
+- ffmpeg, mpv,
+- gcc, m4, bison, make, libtool, flex, meson, autoconf, automake
+
+### usefull fonts  
+- noto-fonts-emoji noto-fonts-ttf noto-fonts-ttf-extra noto-fonts-cjk
+- font-liberation-ttf font-firacode font-fira-ttf font-awesome font-hack-ttf
+- dejavu-fonts-ttf
+- ttf-ubuntu-font-family
+- fontmanager
+- ntfs-3g
+
+### graphic drivers  
+- linux-firmware-amd
+- mesa-dri vulkan-loader mesa-vulkan-radeon
+- mesa-vaapi mesa-vdpau
+
+### themes  
+- papirus-icon-theme
+- breeze-cursors
+
+
 ## sysctl
 edit /etc/sysctl.conf
 ```

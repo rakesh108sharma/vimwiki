@@ -20,4 +20,4 @@
 ## Gewürze
 [Salz](salz.md)
 [Liebstöckel](liebstöckel.md)
-
+[Gemüsebrühe](gemüesebruehe.md)
